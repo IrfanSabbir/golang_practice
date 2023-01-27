@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	goroutineExample "go.practice.com/goroutine"
+	linkedListExample "go.practice.com/linkedlist"
 )
 
 // all uncometed packages
@@ -15,6 +15,7 @@ import (
 // panicRecoverExample "go.practice.com/deferPanicRecover/panicRecover"
 // interfaceExample "go.practice.com/interface"
 // goroutineExample "go.practice.com/goroutine"
+// linkedListExample "go.practice.com/linkedlist"
 
 func main() {
 	fmt.Println("Go practice environment......................using go 1.19")
@@ -49,7 +50,11 @@ func main() {
 
 	// Goroutine Recover related topic
 	// Uncomment below line
-	goroutineExample.GoroutineExample()
+	// goroutineExample.GoroutineExample()
+
+	// Goroutine Recover related topic
+	// Uncomment below line
+	linkedListExample.LinkedListExample()
 
 	fmt.Println("Go practice endded")
 }
